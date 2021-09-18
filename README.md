@@ -5,7 +5,7 @@
 - We need to create a new droplet
 - Create new user and not using root
 ```sh
-add user fus
+adduser fus
 
 usermod -aG sudo fus
 ```
