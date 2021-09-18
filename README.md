@@ -23,7 +23,7 @@ ls -lah ~/
 ls -lah ~/.ssh/ #This is the ssh folder of root user and now we need to copy it into common user
 
 ls -lah /home/fus
-mkdir -lah /home/fus/.ssh
+mkdir /home/fus/.ssh
 cp ~/.ssh/authorized_keys /home/fus/.ssh
 
 chown -R fus: /home/fus/.ssh
